@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body {
+    background-color: #4592B6 ;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  header {
+    display: flex;
+    background-color: #1D5975;
+    color: white;
+    height: 75px;
+    padding: 10px;
+  }
+  .name {
+    padding-top: 9px;
+  }
+  
+  .page1 {
+    color: #E3EF76;
+    text-decoration: underline;
+  }
+  .logo {
+    display: flex;
+  }
+  .logo img {
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+    padding-bottom: -20px;
+    padding-right: 900px;
+    padding-top: -20px;
+  }
+  .logo span {
+    align-self: center;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 20px;
+  }
+  
+  a {
+    color: #1D5975;
+    font-size: 15px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 20px;
+    margin-right: 10px;
+    color: #4592B6;
+  }
+  nav a {
+    cursor: pointer;
+    color: #4592B6;
+  }
+  
+  .main_part {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .item {
+    display: inline;
+  }
+  main {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+  }
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    height: 50px;
+    object-fit: cover;
+    margin-left: 10px;
+    padding-right: 200px;
+  }
+  
+  .logo span {
+    align-self: center;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card {
+    background-color: #4592B6;
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  .card img {
+    height: 75px;
+    border-radius: 500px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+  
+  main h2 {
+    margin-bottom: 5px;
+  }
+  main h3 {
+    margin-top: 5px;
+    font-weight: 500;
+  }
+  .gallery {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+  }
+  .gallery-footer {
+    width: 480px;
+    height: 30px;
+    background-color: #1D5975;
+    color: #E3EF76;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .description {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  h4 {
+    margin-bottom: 5px;
+  }
+  
+  h5 {
+    margin-top: 0px;
+    font-weight: 400;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding: 10px;
+  }
+  .name {
+    font-weight: 700;
+  }
+  .do {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .per {
+    text-align: right;
+    color: #E3EF76;
+    font-size: 14px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-top: 5px;
+  }
+  
